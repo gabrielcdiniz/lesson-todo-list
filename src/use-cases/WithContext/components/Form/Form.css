@@ -1,0 +1,35 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  gap: 20px;
+}
+
+.Form__Label {
+  font-size: 1.2rem;
+}
+
+.FormContainer__Input {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.Form__Input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.Form__Submit {
+  width: 120px;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3b79bb;
+  color: white;
+  cursor: pointer;
+}
